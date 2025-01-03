@@ -184,7 +184,7 @@ export default function NavbarIcons() {
                     />
                   </svg>
 
-                  <Link to={"/about"}>Contact</Link>
+                  <Link to={"/contact"}>Contact</Link>
                 </a>
               </li>
             </ul>
