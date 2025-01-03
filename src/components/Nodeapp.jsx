@@ -191,12 +191,16 @@ export default function Nodeapp() {
         }}
         style={{ width: '100vw', height: '100vh' }} // Full-screen canvas
       >
-        <Nodes>
-          <Node ref={a} name="#1" color="#204090" position={[-2, 2, 0]} connectedTo={[b, c, e]} />
-          <Node ref={b} name="#2" color="#904020" position={[2, -3, 0]} connectedTo={[d]} />
-          <Node ref={c} name="#3" color="#209040" position={[-0.25, 0, 0]} />
-          <Node ref={d} name="#4" color="#204090" position={[0.5, -0.75, 0]} />
-          <Node ref={e} name="#5" color="#204090" position={[-0.5, -1, 0]} />
+       <Nodes>
+          <Node ref={a} name="#1" color="#209090" position={[-0.3, -0.5, 0]} connectedTo={[b, c, d, e, f, g, h, i]} />
+          <Node ref={b} name="#2" color="#904020" position={[-0.3, 2, 0]}  />
+          <Node ref={c} name="#3" color="#209040" position={[-6, 2, 0]} />
+          <Node ref={d} name="#4" color="#307090" position={[5, -3.5, 0]} />
+          <Node ref={e} name="#5" color="#f11a50" position={[-6, -3.5, 0]} />
+          <Node ref={f} name="#6" color="#477790" position={[-0.5, -3.5, 2]} />
+          <Node ref={g} name="#7" color="#704090" position={[5, 2, 0]} />
+          <Node ref={h} name="#8" color="#994090" position={[-6, -1, 0]} />
+          <Node ref={i} name="#9" color="#994090" position={[7, -1, 0]} />
         </Nodes>
         {/* Animated Text */}
         <AnimatedText />
