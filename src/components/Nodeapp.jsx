@@ -177,7 +177,7 @@ const AnimatedText = () => {
 };
 
 export default function Nodeapp() {
-  const [[a, b, c, d, e]] = useState(() => [...Array(5)].map(createRef));
+  const [[a, b, c, d, e, f, g, h, i]] = useState(() => [...Array(9)].map(createRef));
 
   return (
     <div className="h-auto w-auto bg-black">
